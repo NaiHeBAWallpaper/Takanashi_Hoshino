@@ -69,6 +69,15 @@
 				"type" : "slider",
 				"value" : 60
 			},
+			"drawHitboxes" : 
+			{
+				"condition" : "mouseactions.value == true",
+				"index" : 15,
+				"order" : 115,
+				"text" : "Interactive Area",
+				"type" : "bool",
+				"value" : false
+			},
 			"fireworks" : 
 			{
 				"index" : 13,
@@ -236,7 +245,7 @@
 	"tags" : [ "Anime" ],
 	"title" : "Blue Archive | Takanashi Hoshino",
 	"type" : "Web",
-	"version" : 4,
+	"version" : 5,
 	"visibility" : "public",
 	"workshopid" : "3498199267",
 	"workshopurl" : "steam://url/CommunityFilePage/3498199267"
