@@ -9,10 +9,10 @@
 			"bgmvolume" : 
 			{
 				"fraction" : false,
-				"index" : 14,
+				"index" : 15,
 				"max" : 100,
 				"min" : 0,
-				"order" : 114,
+				"order" : 115,
 				"text" : "BGM Volume",
 				"type" : "slider",
 				"value" : 20
@@ -72,8 +72,8 @@
 			"drawHitboxes" : 
 			{
 				"condition" : "mouseactions.value == true",
-				"index" : 15,
-				"order" : 115,
+				"index" : 17,
+				"order" : 117,
 				"text" : "Interactive Area",
 				"type" : "bool",
 				"value" : false
@@ -89,7 +89,7 @@
 			"fireworkstheme" : 
 			{
 				"condition" : "fireworks.value == true",
-				"index" : 14,
+				"index" : 16,
 				"options" : 
 				[
 					{
@@ -105,7 +105,7 @@
 						"value" : "system"
 					}
 				],
-				"order" : 114,
+				"order" : 116,
 				"text" : "Fireworks Theme",
 				"type" : "combo",
 				"value" : "system"
@@ -166,8 +166,8 @@
 			"mousetracking" : 
 			{
 				"condition" : "mouseactions.value == true",
-				"index" : 13,
-				"order" : 113,
+				"index" : 14,
+				"order" : 114,
 				"text" : "Mouse Tracking",
 				"type" : "bool",
 				"value" : true
@@ -177,7 +177,7 @@
 				"fraction" : true,
 				"index" : 0,
 				"max" : 2,
-				"min" : 0.8,
+				"min" : 0.7,
 				"order" : 100,
 				"precision" : 3,
 				"step" : 0.01,
@@ -245,7 +245,7 @@
 	"tags" : [ "Anime" ],
 	"title" : "Blue Archive | Takanashi Hoshino",
 	"type" : "Web",
-	"version" : 5,
+	"version" : 6,
 	"visibility" : "public",
 	"workshopid" : "3498199267",
 	"workshopurl" : "steam://url/CommunityFilePage/3498199267"
