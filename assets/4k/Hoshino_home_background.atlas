@@ -1,0 +1,187 @@
+
+Hoshino_home_background.png
+size: 4096, 4096
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Back fish black  group_OG
+  rotate: false
+  xy: 3042, 52
+  size: 684, 280
+  orig: 684, 280
+  offset: 0, 0
+  index: -1
+Back fish white group2_OG
+  rotate: false
+  xy: 3386, 1134
+  size: 300, 90
+  orig: 300, 90
+  offset: 0, 0
+  index: -1
+Layer 69
+  rotate: true
+  xy: 4, 462
+  size: 1000, 1932
+  orig: 1000, 1932
+  offset: 0, 0
+  index: -1
+Middle fish black group 1_OG
+  rotate: true
+  xy: 1940, 322
+  size: 1140, 294
+  orig: 1140, 294
+  offset: 0, 0
+  index: -1
+Middle fish black group 2_OG
+  rotate: true
+  xy: 2740, 774
+  size: 746, 338
+  orig: 746, 338
+  offset: 0, 0
+  index: -1
+Middle fish white group 1_OG
+  rotate: true
+  xy: 2740, 378
+  size: 392, 178
+  orig: 392, 178
+  offset: 0, 0
+  index: -1
+back
+  rotate: false
+  xy: 2270, 1524
+  size: 300, 212
+  orig: 300, 212
+  offset: 0, 0
+  index: -1
+fish_blue_(front)OG
+  rotate: true
+  xy: 2922, 394
+  size: 250, 100
+  orig: 250, 100
+  offset: 0, 0
+  index: -1
+fish_guide_01
+  rotate: false
+  xy: 3042, 336
+  size: 628, 434
+  orig: 628, 434
+  offset: 0, 0
+  index: -1
+fish_stripe_(front)OG
+  rotate: false
+  xy: 3386, 1228
+  size: 362, 198
+  orig: 362, 198
+  offset: 0, 0
+  index: -1
+front
+  rotate: false
+  xy: 2574, 1524
+  size: 300, 212
+  orig: 300, 212
+  offset: 0, 0
+  index: -1
+light 1_OG
+  rotate: false
+  xy: 4, 1466
+  size: 2262, 2456
+  orig: 2262, 2456
+  offset: 0, 0
+  index: -1
+middle
+  rotate: false
+  xy: 3082, 1214
+  size: 300, 212
+  orig: 300, 212
+  offset: 0, 0
+  index: -1
+particle_bubble_OG
+  rotate: false
+  xy: 3082, 1140
+  size: 70, 70
+  orig: 70, 70
+  offset: 0, 0
+  index: -1
+particle_star_OG
+  rotate: true
+  xy: 2922, 648
+  size: 122, 114
+  orig: 122, 114
+  offset: 0, 0
+  index: -1
+rock 1(back)
+  rotate: false
+  xy: 2238, 144
+  size: 800, 198
+  orig: 800, 198
+  offset: 0, 0
+  index: -1
+upper light water_OG
+  rotate: false
+  xy: 4, 3926
+  size: 3132, 138
+  orig: 3132, 138
+  offset: 0, 0
+  index: -1
+whale(middle)
+  rotate: true
+  xy: 3140, 1430
+  size: 2634, 924
+  orig: 2634, 924
+  offset: 0, 0
+  index: -1
+whale(middle) light
+  rotate: true
+  xy: 2270, 1740
+  size: 2182, 470
+  orig: 2182, 470
+  offset: 0, 0
+  index: -1
+whale(middle) shadow
+  rotate: true
+  xy: 2238, 346
+  size: 1116, 498
+  orig: 1116, 498
+  offset: 0, 0
+  index: -1
+
+Hoshino_home_background2.png
+size: 2048, 2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+01/basle
+  rotate: false
+  xy: 4, 1672
+  size: 300, 212
+  orig: 300, 212
+  offset: 0, 0
+  index: -1
+01/rock 2(back)
+  rotate: false
+  xy: 496, 736
+  size: 1388, 898
+  orig: 1388, 898
+  offset: 0, 0
+  index: -1
+01/rock 3(back)
+  rotate: false
+  xy: 1126, 1638
+  size: 598, 246
+  orig: 598, 246
+  offset: 0, 0
+  index: -1
+01/rock 5(back)
+  rotate: false
+  xy: 308, 1652
+  size: 814, 232
+  orig: 814, 232
+  offset: 0, 0
+  index: -1
+01/rock4(back)
+  rotate: true
+  xy: 4, 1174
+  size: 474, 488
+  orig: 474, 488
+  offset: 0, 0
+  index: -1

@@ -1,11 +1,50 @@
 {
 	"contentrating" : "Everyone",
-	"description" : "A live2D web wallpaper for Blue Archive.",
+	"description" : "[h1][b] A live2D web wallpaper for Blue Archive [/b][/h1]\r\n\r\n[hr][/hr]\r\n\r\n[h1]Custom Features[/h1]\r\n\r\n[list]\r\n [*][b]Scale[/b]\r\n [*][b]Target FPS[/b]\r\n [*][b]Intro Animation[/b]\r\n [*][b]Dialog[/b]\r\n [*][b]Headpatting[/b]\r\n [*][b]Mouse Tracking[/b] (Eye Movement Following Cursor)\r\n [*][b]Fireworks Effect[/b] on Mouse Click\r\n [*][b]Background Music (BGM)[/b]\r\n [*][b]Voiceline Volume Control[/b]\r\n [/list]\r\n\r\nSupports dialog text in [b]Japanese[/b], [b]English[/b], and [b]Simplified Chinese[/b].\r\n\r\n[hr][/hr]\r\n\r\n[h1]Implementation[/h1]\r\n\r\n[list]\r\n [*]Uses [url=https://github.com/EsotericSoftware/spine-runtimes]spine-webgl[/url] to render Spine models\r\n [*]Uses [url=https://github.com/nihui/realcugan-ncnn-vulkan]realcugan-ncnn-vulkan[/url] for 4x upscaling (8192×8192) of model textures\r\n [/list]\r\n\r\n[hr][/hr]\r\n\r\n[h1]Thanks[/h1]\r\n [url=https://steamcommunity.com/workshop/filedetails/?id=2956165539]https://steamcommunity.com/workshop/filedetails/?id=2956165539[/url]\r\n\r\n[hr][/hr]\r\n\r\n[h1]Copyright[/h1]\r\n\r\n[quote]Blue Archive is a registered trademark of NAT GAMES Co., Ltd., NEXON Korea Corp., and Yostar, Inc.\r\n This project is not affiliated with, endorsed by, or connected to NAT GAMES Co., Ltd., NEXON Korea Corp., NEXON GAMES Co., Ltd., IODivision, Yostar, Inc., or any of their subsidiaries or affiliates.\r\n All game assets, content, and materials are copyrighted by their respective owners and are used for informational and educational purposes only.[/quote]",
 	"file" : "index.html",
 	"general" : 
 	{
 		"properties" : 
 		{
+			"modelresolution" : 
+			{
+				"index": 20,
+				"options": [
+					{
+						"label": "2K",
+						"value": "2k"
+					},
+					{
+						"label": "4K",
+						"value": "4k"
+					},
+					{
+						"label": "8K",
+						"value": "8k"
+					}
+				],
+				"order": 120,
+				"text": "Model Resolution",
+				"type": "combo",
+				"value": "8k"
+			},
+			"bapointer" : 
+			{
+				"index": 18,
+				"order": 118,
+				"text": "BA Pointer Style",
+				"type": "bool",
+				"value": true
+			},
+			"bapersistenttrail" : 
+			{
+				"condition": "fireworks.value == true && bapointer.value == true",
+				"index": 19,
+				"order": 119,
+				"text": "BA Pointer Persistent Trail",
+				"type": "bool",
+				"value": false
+			},
 			"bgmvolume" : 
 			{
 				"fraction" : false,
@@ -82,13 +121,13 @@
 			{
 				"index" : 13,
 				"order" : 113,
-				"text" : "Fireworks Effect",
+				"text" : "Click Effects",
 				"type" : "bool",
 				"value" : true
 			},
 			"fireworkstheme" : 
 			{
-				"condition" : "fireworks.value == true",
+				"condition" : "fireworks.value == true && bapointer.value == false",
 				"index" : 16,
 				"options" : 
 				[
@@ -237,15 +276,15 @@
 			}
 		}
 	},
-	"preview" : "preview.jpg",
+	"preview" : "preview.gif",
 	"ratingsex" : "none",
 	"ratingviolence" : "none",
-	"snapshotformat" : -1,
+	"snapshotformat" : 0,
 	"snapshotoverlay" : "",
 	"tags" : [ "Anime" ],
 	"title" : "Blue Archive | Takanashi Hoshino",
-	"type" : "Web",
-	"version" : 6,
+	"type" : "web",
+	"version" : 9,
 	"visibility" : "public",
 	"workshopid" : "3498199267",
 	"workshopurl" : "steam://url/CommunityFilePage/3498199267"
